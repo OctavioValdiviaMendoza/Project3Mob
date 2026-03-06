@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Project3OctavioValdivia</string>
+    <string name="name1">Name 1</string>
+    <string name="name2">Name 2</string>
+    <string name="name3">Name 3</string>
+    <string name="name4">Name 4</string>
+    <string name="name5">Name 5</string>
+
+    <string name="des1">Des 1</string>
+    <string name="des2">Des 2</string>
+    <string name="des3">Des 3</string>
+    <string name="des4">Des 4</string>
+    <string name="des5">Des 5</string>
+
+    <string name="information">Information</string>
+    <string name="uninstall">uninstall</string>
+</resources>
