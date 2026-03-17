@@ -171,7 +171,7 @@ Squeeze lime juice on top.</string>
 
     <string name="TextView">TextView</string>
     <string name="MyList">Octavio Valdivia\'s Best Recipes</string>
-    <string name="phoneNum">888–888–8888</string>
+    <string name="phoneNum">tel:888–888–8888</string>
 
     <string name="information">Information</string>
     <string name="uninstall">uninstall</string>
