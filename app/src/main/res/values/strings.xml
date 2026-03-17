@@ -1,19 +1,176 @@
 <resources>
     <string name="app_name">Project3OctavioValdivia</string>
-    <string name="name1">Name 1</string>
-    <string name="name2">Name 2</string>
-    <string name="name3">Name 3</string>
-    <string name="name4">Name 4</string>
-    <string name="name5">Name 5</string>
+    <string name="name1">Tacos al Pastor</string>
+    <string name="name2">Chicken Enchiladas</string>
+    <string name="name3">Guacamole3</string>
+    <string name="name4">Pozole</string>
+    <string name="name5">Elote (Mexican Street Corn)</string>
 
-    <string name="des1">Des 1</string>
-    <string name="des2">Des 2</string>
-    <string name="des3">Des 3</string>
-    <string name="des4">Des 4</string>
-    <string name="des5">Des 5</string>
+    <string name="des1">Ingredients:
+
+2 lbs pork (shoulder or thin slices)
+
+3 dried guajillo chiles (or chili powder substitute)
+
+2 cloves garlic
+
+1/4 cup pineapple juice
+
+2 tbsp vinegar
+
+1 tsp cumin, 1 tsp oregano
+
+1/2 pineapple (chunks)
+
+Corn tortillas
+
+Onion + cilantro
+
+Steps:
+
+Make the marinade:
+Blend soaked guajillo chiles, garlic, pineapple juice, vinegar, and spices.
+
+Marinate the pork:
+Coat pork and let sit at least 2 hours (overnight is best).
+
+Cook the meat:
+Pan-fry or grill until slightly crispy on edges.
+
+Add pineapple:
+Toss pineapple chunks into the pan for the last 2–3 minutes.
+
+Assemble tacos:
+Warm tortillas → add pork → top with pineapple, onion, cilantro.</string>
+    <string name="des2">2 cups cooked shredded chicken
+
+8 corn tortillas
+
+2 cups enchilada sauce (store-bought or homemade)
+
+1–2 cups shredded cheese
+
+Sour cream (optional)
+        Steps:
+
+Prep oven:
+Preheat to 375°F (190°C).
+
+Soften tortillas:
+Lightly fry or microwave so they don’t crack.
+
+Fill tortillas:
+Add chicken + a little cheese, then roll them.
+
+Place in dish:
+Put rolled tortillas seam-side down in a baking dish.
+
+Add sauce + cheese:
+Pour enchilada sauce over the top and sprinkle cheese.
+
+Bake:
+Bake for 20 minutes until bubbly.
+
+Serve:
+Add sour cream or cilantro if you want.
+    </string>
+
+    <string name="des3">Ingredients:
+
+3 ripe avocados
+
+1 lime (juice)
+
+1/4 onion (finely chopped)
+
+1 tomato (diced)
+
+2 tbsp cilantro
+
+Salt to taste
+
+Steps:
+
+Mash avocados:
+Use a fork—leave it slightly chunky.
+
+Add lime + salt:
+Mix immediately to prevent browning.
+
+Mix in veggies:
+        Add onion, tomato, cilantro.
+
+Taste and adjust:
+Add more salt or lime if needed.
+
+Serve fresh:
+Best eaten right away with chips or tacos.</string>
+    <string name="des4">2 lbs pork (shoulder or ribs)
+
+1 large can hominy (drained)
+
+3 dried guajillo chiles
+
+2 cloves garlic
+
+1 tsp oregano
+
+Salt
+    Toppings:
+
+Shredded cabbage
+
+Radish slices
+
+Lime wedges
+    Cook pork:
+Boil pork in a large pot with salt for 1–1.5 hours until tender.
+
+Make chili sauce:
+Soak chiles → blend with garlic and some broth.
+
+Strain sauce:
+Pour into pot with pork.
+
+Add hominy:
+Stir in and simmer another 30 minutes.
+
+Season:
+Add oregano and adjust salt.
+
+Serve:
+Bowl it up and add toppings (cabbage, radish, lime).</string>
+    <string name="des5">
+        4 ears of corn
+
+1/4 cup mayo
+
+1/4 cup sour cream
+
+1/2 cup cotija cheese (or parmesan)
+
+Chili powder
+
+Lime wedges
+        Steps:
+
+Cook corn:
+Grill (best) or boil until tender.
+
+Mix sauce:
+Combine mayo + sour cream.
+
+Coat corn:
+Brush corn with the creamy mixture.
+
+Add toppings:
+Sprinkle cheese + chili powder.
+
+Finish with lime:
+Squeeze lime juice on top.</string>
 
     <string name="TextView">TextView</string>
-    <string name="MyList">Octavio Valdivia\'s Poker Ranking list</string>
+    <string name="MyList">Octavio Valdivia\'s Best Recipes</string>
     <string name="phoneNum">888–888–8888</string>
 
     <string name="information">Information</string>
