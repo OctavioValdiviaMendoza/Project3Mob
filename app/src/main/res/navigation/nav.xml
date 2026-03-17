@@ -29,7 +29,7 @@
 
     <fragment
         android:id="@+id/infoFragment"
-        android:name="edu.sjsu.android.project1.project1.project3octaviovaldivia.InfoFragment"
+        android:name="edu.sjsu.android.project1.project1.project3octaviovaldivia.infoFragment"
         android:label="My Directory"
         tools:layout="@layout/fragment_info" />
 
