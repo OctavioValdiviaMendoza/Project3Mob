@@ -31,11 +31,11 @@ public class ListFragment extends Fragment {
         super.onCreate(savedInstanceState);
         items = new ArrayList<>();
         // TODO: add 5 images and replace the images
-        items.add(new Myitem(R.drawable.ic_launcher_background,R.string.name1,R.string.des1));
-        items.add(new Myitem(R.drawable.ic_launcher_background,R.string.name2,R.string.des2));
-        items.add(new Myitem(R.drawable.ic_launcher_background,R.string.name3,R.string.des3));
-        items.add(new Myitem(R.drawable.ic_launcher_background,R.string.name4,R.string.des4));
-        items.add(new Myitem(R.drawable.ic_launcher_background,R.string.name5,R.string.des5));
+        items.add(new Myitem(R.drawable.tacos,R.string.name1,R.string.des1));
+        items.add(new Myitem(R.drawable.enchiladas,R.string.name2,R.string.des2));
+        items.add(new Myitem(R.drawable.guacamole,R.string.name3,R.string.des3));
+        items.add(new Myitem(R.drawable.pozole,R.string.name4,R.string.des4));
+        items.add(new Myitem(R.drawable.elote,R.string.name5,R.string.des5));
 
         LAST_ITEM_INDEX= items.size() - 1;
 

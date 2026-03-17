@@ -54,6 +54,9 @@ public class MainActivity extends AppCompatActivity {
             Log.d("hhhhh", "info clicked");
             NavHostFragment fragment = (NavHostFragment)
                     getSupportFragmentManager().findFragmentById(R.id.fragmentContainerView);
+            assert fragment != null;
+            NavController controller = fragment.getNavController();
+            controller.navigate(R.id.to_info);
 
         }
         else if (item.getItemId() == R.id.uninstall){
