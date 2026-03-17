@@ -1,21 +1,17 @@
 package edu.sjsu.android.project1.project1.project3octaviovaldivia;
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
+import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.fragment.NavHostFragment;
+import androidx.recyclerview.widget.RecyclerView;
 
-import edu.sjsu.android.project1.project1.project3octaviovaldivia.Myitem;
+import java.util.ArrayList;
 
 /**
  * A fragment representing a list of Items.
@@ -38,7 +34,8 @@ public class ListFragment extends Fragment {
         items.add(new Myitem(R.drawable.ic_launcher_background,R.string.name1,R.string.des1));
         items.add(new Myitem(R.drawable.ic_launcher_background,R.string.name1,R.string.des1));
         items.add(new Myitem(R.drawable.ic_launcher_background,R.string.name1,R.string.des1));
-        //Todo: add at least 2 more items
+        items.add(new Myitem(R.drawable.ic_launcher_background,R.string.name1,R.string.des1));
+        items.add(new Myitem(R.drawable.ic_launcher_background,R.string.name1,R.string.des1));
 
         LAST_ITEM_INDEX= items.size() - 1;
 
@@ -48,7 +45,8 @@ public class ListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_list_, container, false);
-        MyAdapter adapter = new MyAdapter(items);
+
+        MyAdapter adapter = new MyAdapter(items, ListFragment.this::onItemClick);
         ((RecyclerView) view).setAdapter(adapter);
         return view;
     }
@@ -63,8 +61,13 @@ public class ListFragment extends Fragment {
         }
 
         private void goDetail(int position){
-            // TODO: go to the detail page of the selected item
-            //through navigation component
+            Myitem item = items.get(position);
+            Bundle bundle = new Bundle();
+            bundle.putParcelable(getString(R.string.argu_key), item);
+
+            NavController controller = NavHostFragment.findNavController(this);
+            controller.navigate(R.id.list_to_detail, bundle);
+
         }
 
         private void showWarning(){

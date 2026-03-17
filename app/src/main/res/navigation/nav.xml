@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="edu.sjsu.android.project1.project1.project3octaviovaldivia.ListFragment"
+        android:label="My Directory"
+        tools:layout="@layout/fragment_list_">
+
+        <action
+            android:id="@+id/list_to_detail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="edu.sjsu.android.project1.project1.project3octaviovaldivia.DetailFragment"
+        android:label="My Directory"
+        tools:layout="@layout/fragment_detail">
+
+        <argument
+            android:name="argu_key"
+            app:argType="edu.sjsu.android.project1.project1.project3octaviovaldivia.Myitem" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="edu.sjsu.android.project1.project1.project3octaviovaldivia.InfoFragment"
+        android:label="My Directory"
+        tools:layout="@layout/fragment_info" />
+
+    <action
+        android:id="@+id/to_info"
+        app:destination="@id/infoFragment" />
+
+</navigation>
