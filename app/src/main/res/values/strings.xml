@@ -13,11 +13,11 @@
     <string name="des5">Des 5</string>
 
     <string name="TextView">TextView</string>
+    <string name="MyList">Octavio Valdivia\'s Poker Ranking list</string>
+    <string name="phoneNum">888–888–8888</string>
 
     <string name="information">Information</string>
     <string name="uninstall">uninstall</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="argu_key">argu_key</string>
 </resources>

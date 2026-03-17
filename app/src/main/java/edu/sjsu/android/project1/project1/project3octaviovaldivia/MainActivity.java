@@ -13,11 +13,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.customview.widget.Openable;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.NavController;
+import androidx.navigation.ui.NavigationUI;
 
 
 public class MainActivity extends AppCompatActivity {
+    private NavController controller;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        NavHostFragment fragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentContainerView);
+        if (fragment != null) {
+            controller = fragment.getNavController();
+            NavigationUI.setupActionBarWithNavController(this, controller, (Openable) null);
+        }
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -54,5 +63,10 @@ public class MainActivity extends AppCompatActivity {
 
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        return controller.navigateUp() || super.onSupportNavigateUp();
     }
 }
